@@ -1,0 +1,13 @@
+Esercizio 1:
+Crea un componente CustomList che accetta i seguenti props: 
+- type: "ul" o "ol", stringhe, che determinano quale lista deve venire creata;
+- list: un array di stringhe che vengono usate per creare dei list item
+
+Esercizio 2:
+Crea un array di oggetti (allLists), in cui ciascun oggetto ha questa struttura:
+{
+   title: "Invitati"
+   type: "ul",
+   list: ["Tizio", "Caio]
+}
+Per ogni oggetto, renderizza un div che contiene un titolo con contenuto 'title' e un CustomList con type e list nei props.
